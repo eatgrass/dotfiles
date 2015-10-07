@@ -1,6 +1,9 @@
 execute pathogen#infect()
 filetype plugin indent on
 
+autocmd vimenter * NERDTree
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
+
 set encoding=utf-8
 
 syntax enable
