@@ -93,3 +93,5 @@ export PATH=$PATH:$HOME/Library/Python/2.7/bin/
 
 alias tx="tmux"
 . $HOME/Library/Python/2.7/lib/python/site-packages/powerline/bindings/zsh/powerline.zsh
+
+powerline-daemon -q
