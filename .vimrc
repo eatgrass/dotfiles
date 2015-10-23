@@ -23,6 +23,11 @@ set shiftwidth=4
 set expandtab
 set autoindent
 set hlsearch
+set updatetime=500
+set backspace=indent,eol,start " make backspace work over everything
+set relativenumber "this only works on 7.4 or later
+"always show sign column
+let g:gitgutter_sign_column_always = 1
 
 if ! has('gui_running')
 		set ttimeoutlen=10
